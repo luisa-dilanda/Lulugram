@@ -1,6 +1,9 @@
 # Lulugram
 ## General introduction
 *Lulugram* is a chatroom application in Python. The application was written using python `socket` library, with more than one client connecting to the same server that gets the clients messages and forwards them to all the currently connected users. The application has a basic graphic interface created using python `tkinter` library.
+
+<img width="400" height="250" alt="lulugram" src="https://github.com/user-attachments/assets/4e2faf7e-989e-42eb-8be4-698c22068234" />
+
 ## Functioning
 The application works in the following way: once you open the server, clients can connect to it inserting IP address and port they mean to connect to. After that, the application opens a basic graphic iterface where we print a welcome message. The client is asked to choose a username for the communication with the other users in the chatroom, and after that the application tells the user the number of people currently connected to the chatroom. The username must be unique for each user.
 Each time someone joins or leaves the conversation, the other users get notified.
